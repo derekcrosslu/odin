@@ -8,6 +8,17 @@
 </head>
 <body>
   <p>Welcome to my Library</p>
+  <button id="new-book-btn">NEW BOOK</button>
+<div class="books-grid"></div>
+
+<!-- Book form (can be hidden initially and shown when NEW BOOK is clicked) -->
+<form id="book-form" style="display: none;">
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="author" placeholder="Author">
+    <input type="number" id="pages" placeholder="Number of Pages">
+    <input type="checkbox" id="read"> Read
+    <button type="submit">Add Book</button>
+</form>
   <script src="script.js"></script>
 </body>
 </html>
